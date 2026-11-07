@@ -141,3 +141,12 @@ p.src{font-size:13px;color:var(--muted);margin-top:14px;max-width:62em}
 .kpis b{font-size:clamp(21px,2.5vw,30px);white-space:nowrap}
 .kpis li{padding:26px 20px}
 @media(max-width:760px){.kpis b{white-space:normal}}
+
+/* ===== Canva-Bilder unverändert ===== */
+.cv{background:#EEF1F4;border-radius:24px;overflow:hidden;box-shadow:0 24px 54px rgba(10,18,24,.28);width:min(320px,100%);margin:0 auto}
+.cv img{display:block;width:100%;height:auto}
+.hero-stage2{position:relative;display:flex;justify-content:center;padding-bottom:20px}
+.hero-stage2 .cv{width:min(330px,86%)}
+.hero-stage2 .pricecard{left:0;bottom:50px}
+.showcase .cv{width:min(290px,100%)}
+@media(max-width:860px){.hero-stage2 .pricecard{left:2%}}
