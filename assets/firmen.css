@@ -150,3 +150,16 @@ p.src{font-size:13px;color:var(--muted);margin-top:14px;max-width:62em}
 .hero-stage2 .pricecard{left:0;bottom:50px}
 .showcase .cv{width:min(290px,100%)}
 @media(max-width:860px){.hero-stage2 .pricecard{left:2%}}
+.why{padding-top:60px}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:30px}
+.why-col{background:#fff;border:1px solid var(--line);border-radius:16px;padding:30px 32px}
+.why-col:first-child{background:var(--dark);border-color:var(--dark);color:#B4C3CE}
+.why-col:first-child h3{color:#fff}.why-col:first-child b{color:#fff}
+.why-col h3{font-size:20px;margin-bottom:14px}
+.why-col ul{list-style:none}.why-col li{padding:12px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.5}
+.why-col:first-child li{border-top-color:#25343F}
+.why-col li:first-child{border-top:0;padding-top:4px}
+.why-col b{color:var(--ink);display:block;font-size:16.5px}
+.why-col sup{font-size:11px}
+@media(max-width:860px){.why-grid{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(32px,4.4vw,50px)}
