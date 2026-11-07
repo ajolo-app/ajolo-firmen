@@ -118,3 +118,16 @@ footer p{font-size:13px;line-height:1.7;max-width:60em}
 @media(max-width:760px){.docs{grid-template-columns:1fr}}
 .quote{background:var(--dark);color:#C3D0D9;border-radius:16px;padding:38px 40px;margin-top:10px}
 .quote p{font-size:clamp(19px,2.3vw,24px);color:#fff;line-height:1.45;letter-spacing:-.01em}.quote .src{color:#8CA0AE;margin-top:14px}
+
+/* ===== Neue Handy-Bilder ===== */
+.pp{display:block;width:100%;height:auto;filter:drop-shadow(0 26px 34px rgba(10,18,24,.45))}
+.hero-stage{min-height:0;height:600px;max-width:520px;margin:0 auto;width:100%}
+.hero-stage .pp{position:absolute;width:46%;top:0}
+.hero-stage .pp.a{left:6%;z-index:2;margin:0}
+.hero-stage .pp.b{left:auto;right:2%;top:80px;z-index:1;width:42%}
+.pricecard{left:0;bottom:60px;z-index:3}
+@media(max-width:860px){.hero-stage{height:540px;max-width:440px}}
+@media(max-width:460px){.hero-stage{height:430px}}
+.showcase figure>.vis{background:linear-gradient(180deg,#E3ECF0,#F4F8FA);border:1px solid var(--line);border-radius:26px;height:500px;overflow:hidden;display:flex;justify-content:center;align-items:flex-start;padding-top:40px}
+.showcase .vis .pp{width:min(250px,68%)}
+.showcase .vis{position:relative}
