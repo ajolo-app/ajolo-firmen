@@ -163,3 +163,4 @@ p.src{font-size:13px;color:var(--muted);margin-top:14px;max-width:62em}
 .why-col sup{font-size:11px}
 @media(max-width:860px){.why-grid{grid-template-columns:1fr}}
 .hero h1{font-size:clamp(32px,4.4vw,50px)}
+@media(max-width:600px){.brand span{display:none}header .btn{padding:9px 14px;font-size:14px}}
