@@ -137,3 +137,9 @@ footer p{font-size:12.5px;line-height:1.8;max-width:62em}
 .why .t h3{font-family:var(--serif);font-weight:500;font-size:clamp(22px,2.4vw,28px);letter-spacing:-.015em;margin-bottom:10px}
 .why .t p{color:var(--text);font-size:16.5px;line-height:1.65;max-width:44em}
 @media(max-width:800px){.why article{grid-template-columns:1fr;gap:16px;padding:30px 0}}
+
+.terms{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:72px;border-top:1px solid var(--ink)}
+.terms div{padding:30px 32px 6px 0}.terms div:not(:first-child){padding-left:32px;border-left:1px solid var(--line)}
+.terms h3{font-family:var(--serif);font-weight:500;font-size:24px;letter-spacing:-.015em;margin-bottom:10px}
+.terms p{color:var(--muted);font-size:15.5px;line-height:1.65}
+@media(max-width:860px){.terms{grid-template-columns:1fr}.terms div,.terms div:not(:first-child){padding:26px 0;border-left:0;border-bottom:1px solid var(--line)}}
