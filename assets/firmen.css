@@ -143,3 +143,15 @@ footer p{font-size:12.5px;line-height:1.8;max-width:62em}
 .terms h3{font-family:var(--serif);font-weight:500;font-size:24px;letter-spacing:-.015em;margin-bottom:10px}
 .terms p{color:var(--muted);font-size:15.5px;line-height:1.65}
 @media(max-width:860px){.terms{grid-template-columns:1fr}.terms div,.terms div:not(:first-child){padding:26px 0;border-left:0;border-bottom:1px solid var(--line)}}
+
+/* Darum */
+.stage{background:var(--ink);color:#fff;border-radius:8px;padding:56px 56px 52px;margin-bottom:64px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid rgba(255,255,255,.18);padding-bottom:40px}
+.stats div{padding-right:32px}.stats div:not(:first-child){padding-left:32px;border-left:1px solid rgba(255,255,255,.18)}
+.stats b{display:block;font-family:var(--serif);font-weight:500;font-size:clamp(40px,4.6vw,60px);letter-spacing:-.03em;line-height:1;color:#fff;white-space:nowrap;margin-bottom:14px}
+.stats span{font-size:15px;color:#B9BCC1;line-height:1.55;display:block}
+.who2{margin-top:38px;font-family:var(--serif);font-size:clamp(20px,2.3vw,27px);line-height:1.45;color:#fff;max-width:36em;letter-spacing:-.01em}
+.bridge{margin-top:22px;font-size:16.5px;color:#C9CBCF;max-width:44em}
+.stage sup{color:#9FA3A9}
+.incl li:last-child:nth-child(odd){grid-column:1/-1}
+@media(max-width:860px){.stage{padding:36px 26px}.stats{grid-template-columns:1fr;padding-bottom:10px}.stats div,.stats div:not(:first-child){padding:22px 0;border-left:0;border-bottom:1px solid rgba(255,255,255,.18)}.stats div:last-child{border-bottom:0}}
